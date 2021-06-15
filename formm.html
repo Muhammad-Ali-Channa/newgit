@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body background="https://cdn.wallpapersafari.com/17/10/LBWgkp.jpg">
+   <center><form action="index.php">
+        <fieldset style="width: 300px;">
+            <legend align="left">Bio Data</legend>
+        
+        <label for="fname">Name  :</label>
+        &emsp;&emsp;&emsp;<input type="text" name="fname"><br>
+        <label for="ftname">Father's Name:</label>
+        <input type="text" name="ftname"></fieldset>
+
+        <br>
+
+        <label for="gender">Gender:</label>
+        <input type="radio" name="gender">Male
+        <input type="radio" name="gender">Female
+        <br>
+
+        <label for="selectcountry">Select Country</label>
+        <select name="selectcountry" id="Country">
+            <option value="sl">--select--</option>
+            <option value="Pak">Pakistan</option>
+            <option value="ind">India</option>
+            <option value="aus">Australia</option>
+            <option value="can">Candia</option>
+            <option value="ban">Bangladesh</option>
+            <option value="ger">German</option>
+            <option value="uk">London</option>
+        </select>
+
+        &emsp;&emsp;&emsp;&emsp;<label for="ui">Upload Image</label>
+        <input type="file" id="ui" name="ui" accept="image/png,image/jpeg">
+        <br>
+
+        <label for="selectcourse">Select Course</label>
+        <select name="selectcourse" id="Course">
+            <option value="sl">--select--</option>
+            <option value="cs">Computer System</option>
+            <option value="it">Information Technology(IT)</option>
+            <option value="bscs">BS(Computer Science)</option>
+            <option value="elec">Electrical</option>
+            <option value="electro">Electronics</option>
+            <option value="civ">Civil</option>
+            <option value="mec">Mechanical</option>
+        </select>
+        <br>
+
+        <label for="add">Address</label><br>
+        <textarea name="add" id="add" cols="30" rows="2"></textarea> <br>
+
+        <label for="qual">Qualificatio</label>
+        &emsp;<input type="checkbox" name="mat" id="">Matric <br>
+       &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<input type="checkbox" name="Intermediate" id="">Intermediate <br>
+        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<input type="checkbox" name="bac" id="">Bachlors <br>
+        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<input type="checkbox" name="mas" id="">Masters<br>
+
+        <input type="submit" name="sbt" value="submit">
+        <input type="reset" name="rbtm" value="clear">
+        <p style="size:1500px">&#128148;</p>
+    </form>
+    <!-- &#169; &lt;  -->
+    
+</center>
+</body>
+</html>
+
+
+
+<!-- 
+<fieldset></fieldset>  => Its for line around anything like we have in CV's -->
+<!-- <legend></legend> => its used for write text on line -->
